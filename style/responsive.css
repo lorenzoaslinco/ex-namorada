@@ -1,0 +1,59 @@
+@media (min-width: 0px) and (max-width: 767px) {
+  .wrapper {
+    display: table;
+    margin: 50px auto 50px auto;
+    position: relative;
+  }
+
+  html,
+  body {
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  h1,
+  h3,
+  h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    margin-left: 20px;
+  }
+
+  .heart {
+    color: red;
+    font-size: 30px;
+  }
+
+  p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 56px;
+  }
+
+  .box {
+    width: 25px;
+    height: 25px;
+    background: white;
+    margin: 0 2px 2px 0;
+    position: relative;
+    opacity: 0;
+    top: 0;
+    border-radius: 2px;
+  }
+}
